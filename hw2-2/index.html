@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monty Hall problem</title>
+</head>
+<body>
+	<h1>This is a webpage verifying Monty Hall problem,that is:</h1>
+	<p>
+		
+
+
+
+
+	</p>
+	
+	<p>
+		
+	</p>
+
+	<p>Your strategy can be either</p>
+	<ol>
+		<li>Not Switch your choice.<br>
+		or<br>
+		</li>
+		<li>Switch your choice.</li>
+	</ol>
+
+	<b>You can play multiple times, and the statistics will be recorded below</b>
+	
+	<div id="img_container">
+
+
+		<div class="img" id='first'>
+		<img src="./images/doorclose.jpeg" 
+		onmouseover='opendoor(this)'
+		onmouseout='closedoor(this)'
+		onclick='choose(this)'>
+		</div>
+
+		<div class="img" id='second' >
+		<img src="./images/doorclose.jpeg" 
+		onmouseover='opendoor(this)'
+		onmouseout='closedoor(this)'
+		onclick='choose(this)'>
+		</div>
+		<div class="img" id='third'>
+		<img src="./images/doorclose.jpeg" 
+		onmouseover='opendoor(this)'
+		onmouseout='closedoor(this)'
+		onclick="choose(this)">
+		</div>
+
+	</div>
+
+
+
+	<table id='mytable'>
+		<tr>
+			<td></td>
+			<td>switch</td>
+			<td>not switch</td>
+		</tr>
+
+		<tr>
+			<td>try</td>
+			<td></td>
+			<td>times</td>
+			<td></td>
+			<td>times</td>
+
+		</tr>
+
+		<tr>
+			<td>success</td>
+			<td></td>
+			<td>times</td>
+			<td></td>
+			<td>times</td>
+
+		</tr>
+
+		<tr>
+			<td>success rate</td>
+			<td></td>
+			<td>%</td>
+			<td></td>
+			<td>%</td>
+
+		</tr>
+		
+
+
+
+
+
+	</table>
+
+
+	<script src= "./hw2.js"></script>
+
+
+	</html>
