@@ -1,0 +1,171 @@
+body{
+	background-color: rgb(240,240,240);
+
+
+}
+
+
+
+h1{
+	
+}
+
+p{
+	height:40px;
+	margin: 0px;
+	position: absolute;
+	top:8px;
+	left:10%;
+
+	
+}
+
+div #navigation-bar{
+	height:80%;
+	width:30px;
+
+}
+
+
+#add{
+	border:solid black ;
+	height:39px;
+	font-weight: bold;
+	margin-left:0px; 
+	position: relative;
+	bottom: 4px;
+	
+}
+
+#left_container{
+	float: left;
+	width:200px;
+	border:3px;
+	border-color: black;
+
+}
+
+#right_container{
+	
+
+}
+
+input{
+	height:30px;
+	width:400px;
+	border:black solid;
+	padding-left:5px;
+	font-size: 1.5em;
+
+
+}
+
+/*.check.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}*/
+
+
+
+
+
+.list{
+	border:3px solid black;
+	border-top-style:1px;
+	border-bottom-style: 0.5px;
+	background:white;
+	padding-left: 3px;
+	list-style: none;
+
+
+	position: relative;
+
+
+	
+	width:60%;
+
+}
+.list:hover{
+	background-color: yellow;
+	
+}
+
+
+button.cross{
+	background: url(images/error.svg) no-repeat right ;
+	background-size: 20px 20px;
+	position: absolute;
+	top:2px;
+	right:3px;
+	border:none;
+	height:25px;
+	width:25px;
+
+
+	float:right;
+
+}
+
+
+/*button.alter{
+	background: url(images/error.svg) no-repeat right ;
+	background-size: 20px 20px;
+	position: relative;
+	top:-2px;
+	right:2px;
+	border:none;
+	height:25px;
+	width:25px;
+
+
+	float:right;
+}*/
+
+
+button.cross:hover{
+	background: url(images/error-2.svg) no-repeat right;
+	
+	background-size: 20px 20px;
+	position: absolute;
+	top:2px;
+	right:3px;
+	border:none;
+	height:25px;
+	width:25px;
+
+
+	float-right;
+}
+
+button.add{
+	position: absolute;
+	bottom: 0px;
+	right: 3px;
+}
+
+button.edit{
+	/*background: url('images/pencil-edit-button.svg') ;
+	background-size: 24px 24px;*/
+	background: ;
+
+	position: absolute;
+	top: 5px;
+	right: 25px;
+
+
+}
+/*.check{
+	position: absolute;
+	top:1px;
+	left:0px;
+}
+*/
+
+
+ul {
+	list-style-type: circle;
+}
+
+
+
